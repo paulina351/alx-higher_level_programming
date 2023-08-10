@@ -1,2 +1,2 @@
 #!/usr/bin/bash
-echo 'main.py'
+python3 - c "main.py"
