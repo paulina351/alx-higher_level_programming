@@ -1,9 +1,14 @@
 #!/usr/bin/python3
 """
+a class Square that defines a square
 """
 
 
 class Square:
+    """
+    Private instance attribute
+    You are not allowed to import any module
+    """
 
     def __init__(self, size=0):
 
