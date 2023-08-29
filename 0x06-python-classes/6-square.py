@@ -1,11 +1,18 @@
 #!/usr/bin/python3
-"""
-"""
+"""class Square that defines a square"""
 
 
 class Square:
+    """a square"""
 
     def __init__(self, size=0, position=(0, 0)):
+        """
+        Private instance attribute: size:
+        Private instance attribute: position:
+        Instantiation with optional size and optional position:
+        Public instance method:
+        Public instance method: def my_print(self):
+        """
         self.size = size
         self.position = position
 
