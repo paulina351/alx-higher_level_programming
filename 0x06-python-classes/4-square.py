@@ -13,7 +13,6 @@ class Square:
         Instantiation with optional size: def __init__(self, size=0):
         Public instance method: def area(self):
         """
-
         self.__size = size
 
         @property
@@ -23,12 +22,11 @@ class Square:
 
         @size.setter
         def size(self, value):
-            if type(size) !=  int:
+            if not isinstance(value, int):
                 raise TypeError("size must be an integer")
             elif size < 0:
                 raise ValueError("size must be >= 0")
             self.__size = size
 
         def area(self):
-
             return (self.__size ** 2)
