@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""a script that takes in the name of a state as an argument and lists all cities"""
+"""a script that takes in the name of a state as an argument
+   and lists all cities
+"""
 
 
 import sys
