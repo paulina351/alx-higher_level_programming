@@ -3,7 +3,7 @@
 
 from urllib.request import urlopen
 from sys import argv
-
+import urllib.request
 
 def intranet_hbtn_header():
     """sends a request to the URL and displays the value of
