@@ -5,7 +5,7 @@
 from urllib.request import urlopen
 
 
-def intranet_htbn_status():
+def intranet_hbtn_status():
     """Function that uses the package urllib."""
     with urlopen("https://alx-intranet.hbtn.io/status") as response:
         html = response.read()
