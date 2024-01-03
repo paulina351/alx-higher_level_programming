@@ -16,7 +16,7 @@ def intranet_hbtn_email():
     data = urlencode(email).encode('utf-8')
     req = Request(url, data)
     with urlopen(req) as response:
-        print(response.read().encode('utf-8'))
+        print(response.read().decode('utf-8'))
 
 
 if __name__ == '__main__':
