@@ -14,7 +14,7 @@
     </footer>
     <script type="text/javascript" src="2-script.js">
 	$(document).ready(function(){
-		$('DIV#red_header').css('backgroundColor', '#FF0000');
+		$('DIV#red_header').click('backgroundColor', '#FF0000');
 	)};
     </script>
   </body>
